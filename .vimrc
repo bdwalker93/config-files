@@ -9,6 +9,11 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
 Plug 'ctrlpvim/ctrlp.vim'
 
+" auto-complete plugins
+"Plug 'MarcWeber/vim-addon-mw-utils' "snipmate dep
+"Plug 'tomtom/tlib_vim' "snipmate dep
+"Plug 'garbas/vim-snipmate'
+
 " Add plugins to &runtimepath
 call plug#end()
 
