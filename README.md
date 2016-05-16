@@ -1,4 +1,4 @@
 #config-files
-This repository will house all of my .config files for:
+This repository will house of my .config files for:
 * vim
 * tmux
