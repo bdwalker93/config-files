@@ -4,10 +4,12 @@ call plug#begin('~/.vim/plugged')
 "nerd tree"
 Plug 'scrooloose/nerdtree' " I need my nerdtree!
 
+"control p
+Plug 'ctrlpvim/ctrlp.vim'
+
 " vim-javascript is a dependency of vim-jsx, so load first
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
-Plug 'ctrlpvim/ctrlp.vim'
 
 " auto-complete plugins
 "Plug 'MarcWeber/vim-addon-mw-utils' "snipmate dep
