@@ -10,6 +10,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 "supertab autocomplete
 Plug 'ervandew/supertab'
 
+"control p
+Plug 'ctrlpvim/ctrlp.vim'
+
 " vim-javascript is a dependency of vim-jsx, so load first
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
