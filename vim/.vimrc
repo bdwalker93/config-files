@@ -1,4 +1,4 @@
-" plugin start https://github.com/junegunn/vim-plug
+"plugin start https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
 
 "nerd tree"
@@ -16,6 +16,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 " vim-javascript is a dependency of vim-jsx, so load first
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
+
+"coffescript
+Plug 'kchmck/vim-coffee-script'
 
 " auto-complete plugins
 "Plug 'MarcWeber/vim-addon-mw-utils' "snipmate dep
